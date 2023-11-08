@@ -1,0 +1,192 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+@keyframes log {
+    0% {
+        background-color: #ae3ec9;
+    }
+
+    20% {
+        background-color: #0b7285;
+    }
+
+    40% {
+
+        background-color: #fa5252;
+    }
+
+    60% {
+        background-color: red;
+    }
+
+    80% {
+        background-color: #9a2c00;
+    }
+
+    90% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: gray;
+    }
+}
+
+.navbar {
+    background-color: #0b014a;
+
+
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.logo {
+    font-size: 4rem;
+    border: 2px solid none;
+    font-family: cursive;
+    animation-name: log;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.iam {
+    font-size: 2.4rem;
+    color: #0b7285;
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    color: #0b7285;
+    font-family: cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#home,
+#about {
+    margin-top: 7rem;
+}
+
+.dam {
+    color: #0b014a;
+    font-family: sans-serif;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.about-para {
+    color: #0b7285;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.my-img {
+    height: 430px;
+    width: 400px;
+    box-shadow: 10px 10px 25px #0b7285;
+}
+
+.my-img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+}
+
+.resume {
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    background-color: #0b014a;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 3rem;
+}
+
+.resume:hover {
+    background-color: white;
+    color: #0b014a;
+
+}
+
+.back-c {
+    height: 400px;
+    width: 600px;
+    margin-left: 6rem;
+    margin: auto auto;
+
+}
+
+.bor {
+    border: 2px solid #0b014a21;
+    background-color: #0b014a21;
+}
+
+.bor:hover {
+    background-color: #9a2c0037;
+    text-shadow: 10px 10px 15px blue;
+}
+
+.study:hover {
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+
+}
+
+.stydy-img {
+    height: 250px;
+
+}
+
+.sk-img {
+    height: 200px;
+    width: 100px;
+}
+
+.skil {
+    text-align: center;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 50px;
+}
+
+.skil:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+}
+
+
+.add {
+    color: wheat;
+    font-size: 1.4rem;
+}
+
+.ad {
+    color: white;
+}
+
+.icon {
+    border: 1px solid rgb(45, 44, 44);
+    background-color: rgb(45, 44, 44);
+    padding: 5px;
+    color: white;
+
+}
+
+.website {
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+}
